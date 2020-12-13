@@ -1,3 +1,5 @@
+import cy from "cypress";
+
 describe('Smoke Test', () => {
     it('can view the home page', () => {
       cy.visit('/');
